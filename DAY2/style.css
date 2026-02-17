@@ -1,0 +1,150 @@
+* {
+    background-color: beige;
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;  
+}
+
+body {
+    font-family:'Times New Roman', Times, serif ;
+    color: #171414;
+    line-height: 1.75;
+}
+
+header {
+    background: burlywood;
+    padding: 15px 15px;
+    position: sticky;
+    line-height: 1.75;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+nav h1{
+    font-size: 30px;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #171414;
+    font-weight: bold;
+    transition: 3s;
+}
+
+nav ul li a:hover {
+    color: gray;
+    text-decoration: underline;
+    transition: 0.1s;
+}
+
+/*---hero section ---*/
+
+.hero {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero p{
+    font-size: 25px
+}
+
+/*--- sections---*/
+
+section {
+    padding: 20px 10px;
+    max-width: 1110px;
+    margin: auto;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+}
+
+
+.About-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*---skills grid---*/
+
+.Skills-grid {
+    text-align: center;
+    font-size: 20px;
+    grid-template-columns: repeat();
+}
+
+.Skills-card {
+    background-color: burlywood;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.Skills-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 2);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(1);
+    gap:  20px;
+}
+
+.projects-card {
+    background: burlywood;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.projects-card:hover {
+    transform: scale(1);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 2);
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    background-color: burlywood;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    background-color: burlywood;
+}
+
+button:hover {
+    transform: scale(1);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 2);
+}
+
+/*---footer---*/
+footer p {
+background-color: #171414;
+color: #cdc4c4;
+text-align: center;
+}
