@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Popups</title>
+  </head>
+  <body>
+    <h2>Simple Example for Popups</h2>
+    <script>
+      alert("Welcome to JIT");
+      let name = prompt("Enter your name")
+      console.log(name)
+
+      let confirmRegister = confirm("Do you want to register?")
+      if(confirmRegister){
+        alert("Register Success")
+        console.log("User name:", name)
+      }
+      else{
+        alert("Registration failed")
+        console.log("Please try later!!")
+      }
+    </script>
+  </body>
+</html>
